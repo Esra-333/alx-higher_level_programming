@@ -1,7 +1,13 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    """Handle basic arithmetic operations."""
+    """Handle basic arithmetic operations.
+    Performs basic operations like addition, substraction,
+    multiplication and division between two numbers.
+    The program will execute an operation between two numbers
+    selected by the operator sent to the program.
+    """
+
     from calculator_1 import add, sub, mul, div
     import sys
 
