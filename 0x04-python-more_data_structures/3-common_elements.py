@@ -3,4 +3,4 @@ def common_elements(set_1, set_2):
     """
     A function that returns a set of
     """
-    return(set_1 & set_2)
+    return (set(set_1 - (set(set_1) - set(set_2))))
