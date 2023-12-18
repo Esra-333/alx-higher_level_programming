@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from __future__ import print_function
-from sys import stderr
+import sysr
 
 
 def safe_function(fct, *args):
