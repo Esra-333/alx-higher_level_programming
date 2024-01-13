@@ -140,3 +140,17 @@ class Rectangle(Base):
                  self.x = v
              elif k == "y":
                  self.y = v
+    def to_dictionary(self):
+        """Return the dictionary representation of a Rectangle."""
+        return {
+            "id": self.id,
+            "height": self.height,
+            "height": self.height,
+            "x": self.x,
+            "y": self.y
+        }
+
+    def __str__(self):
+        """Return the print() and str() representation of the Rectangle."""
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.y, 
+                                                       self.x, self.y, self.width, self.height)
