@@ -95,4 +95,4 @@ class Base(object):
                         for d in list_dicts]
                 return [cls.create(**d) for d in list_dicts]
             except IOError:
-                return []
+            return []
