@@ -111,8 +111,8 @@ class Base(object):
                 for obj in list_objs:
                     writer.writerow(obj.to_dictionary())
 
-    @classmethod
-    def load_from_file_csv(cls):
+     @classmethod
+     def load_from_file_csv(cls):
         """Return a list of classes instantiated from a CSV file.
 
         Reads from `<cls.__name__>.csv`.
